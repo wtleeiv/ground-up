@@ -1,0 +1,11 @@
+make objects of fixed size
+- pointers to variable-size data
+-> easy navigation between indices
+
+* addressing modes
+- immediate: hard-coded val
+- direct: mem address
+- indexed: base and offset index
+-- index multiplier: data size
+- indirect: pointer (stored in mem)
+- base pointer: initial offset (skip header info)
