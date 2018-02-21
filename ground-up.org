@@ -9,3 +9,12 @@ make objects of fixed size
 -- index multiplier: data size
 - indirect: pointer (stored in mem)
 - base pointer: initial offset (skip header info)
+
+
+as: *assemble* source (.s) into obj (.o) file
+- object code: non-runable, contains relocation info (symbols, etc)
+ld: *link* object into executable
+- add info req'd by kernel to run
+
+hexdump: view obj code
+od -c: view obj code
